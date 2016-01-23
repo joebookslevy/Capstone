@@ -16,16 +16,16 @@ My Process
 - First, I downloaded, cleaned, and explored the data set.
 - I then looked for the most common single-word, two-word, and three-word phrases from the data sets, creating n-grams.
 - I used the n-grams as the foundation for the prediction algorithm. As a two-word phrase is entered in the application, 
-it is checked against most common three-word phrases to predict the third associated word. If no matches are found, the 
+it is checked against most common three-word phrases to predict the third associated word. If no matches are found, the phrase is checked against two-word and one-word phrases to identify most likely terms to come next. 
 
 My Application (Access & How It Works)
 ========================================================
 
-- My ShinyApp can be found here: 
-- As a two-word phrase is entered in the application, the input is cleaned and prepared to be best searched against the n-gram data sets (e.g., removing punctuation, making text all lower case).
+- My ShinyApp can be found here: https://joebookslevy.shinyapps.io/Capstone/
+- As a two-word phrase is entered, the input is cleaned and prepared to be searched against n-gram data (e.g., removing punctuation, making text all lower case).
 - Once cleaned, the phrase is checked against most common three-word phrases to predict the third associated word. 
-- If no matches are found, the phrase is checked against two-word phrases and one-word phrases, looking at likelihood of terms/words for best match.
-- The result based on the entered phrase is the best matched/predicted next word. Where exact matches do not occur, up to three words likely to be next in sequence are provided.
+- If no matches are found, phrase is checked against two- and one-word phrases for likely term match.
+- The result is the best matched/predicted one-to-three words, since single word prediction may not be most accurate.
 
 Limitations & Possibilities 
 ========================================================
