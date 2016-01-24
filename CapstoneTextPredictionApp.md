@@ -1,7 +1,7 @@
 Capstone Text Prediction App
 ========================================================
 author: JoeBooksLevy
-date: January 23, 2015
+date: January 24, 2016
 
 Background Context
 ========================================================
@@ -30,6 +30,6 @@ My Application (Access & How It Works)
 Limitations & Possibilities 
 ========================================================
 
-- One limitation is that the application's load time and initial functioning takes longer than it should and sometimes give memory errors. This is likely due to code and process not being as efficient as it could be.
-- A second limitation is the lack of accuracy. Even Swiftkey - a leading company specializing on text prediction - is not perfect, so my initial attempt at an algorithm is limited in scope and may not always meet the need of inputs.
-- Given these limitations, there is ample possibility for enhancement of the application for its given purpose. Moreover, implications and more advanced applications of the logic here could help predict behavior or better analyze text for other data needs.
+- I initially designed a more accurate application using more example text. Unfortunately, my app/site crashed due to too much memory being used. When using less data to build my model, the app/site would work, but the prediction was less accurate.
+- The lack of accuracy is a general limitation. Even Swiftkey - a company specializing in text prediction - is not perfect, so my attempt at an algorithm may not always meet the need of inputs.
+- Given these limitations, there is ample possibility for enhancement of the application for its given purpose. More sophisticated/efficient coding could produce a more accurate app. Moreover, implications and more advanced applications of the logic here could help predict behavior or better analyze text for other data needs.
